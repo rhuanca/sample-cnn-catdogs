@@ -9,5 +9,10 @@ Test implementation of cnn described in https://blog.keras.io/building-powerful-
 $ kaggle competitions download -c dogs-vs-cats
 $ ./prepare_data.sh
 ```
-
-##
+## Train
+```
+$ python3 classifier_from_little_data_script_1.py
+```
+You will see something like this:
+Inline-style: 
+![training console output](training.png "console output")
