@@ -7,10 +7,7 @@ Test implementation of cnn described in https://blog.keras.io/building-powerful-
 3. to download and organize data set:
 ```
 $ kaggle competitions download -c dogs-vs-cats
-$ mkdir data
-$ unzip train.zip -d data
-
-
+$ ./prepare_data.sh
 ```
 
 ##
